@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Nido ejecuta un modelo de 35.000 millones de parámetros dentro del iPhone. Sin nube, sin cuenta y sin conexión. Próximamente para iPhone.">
+<meta name="theme-color" content="#0C1009">
+<link rel="canonical" href="https://nidoai.eu/">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Nido">
+<meta property="og:title" content="Nido · La IA que vive en tu iPhone">
+<meta property="og:description" content="Nido ejecuta un modelo de 35.000 millones de parámetros dentro del iPhone. Sin nube, sin cuenta y sin conexión. Próximamente para iPhone.">
+<meta property="og:url" content="https://nidoai.eu/">
+<meta property="og:image" content="https://nidoai.eu/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>:root{color-scheme:light}img{max-width:100%}</style>
+<title>Nido · La IA que vive en tu iPhone</title>
+<link rel="stylesheet" href="fuentes/fuentes.css">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="kit.css">
+<style>:root{--night: #0C1009;--night-2: #141B0F;--night-glow: #1B2614;--on-night: #EEF1E7;--on-night-2: #A6AE99;--night-line: rgba(238, 241, 231, .14);--paper: #FAFAF6;--paper-2: #EFF1E8;--shell: #F4EDDF;--ink: #161A12;--ink-2: #586050;--ink-faint: #C5CABB;--line: #D9DECF;--chip: #E1E5D8;--moss: #46702B;--sprout: #9CC46E;--sprout-hi: #B1D488;--straw: #E6BF62;--straw-ink: #7A5A12;--straw-fill: #F6EBCF;--bar: #C8D6B4;--pro-0: #5A7F3D;--pro-1: #34522A;--pro-2: #26401C;--pro-text: #D7E3C8;--egg-0: #2A3820;--egg-1: #18220F;--egg-2: #20311A;--egg-glow: #93CF5F;--egg-rim: rgba(156, 196, 110, .3);--egg-shine: #FFFFFF;--halo: rgba(120, 175, 80, .32);--halo-2: rgba(120, 175, 80, .09);--phone-glow: rgba(147, 207, 95, .24);--phone-shadow: rgba(22, 26, 18, .3);--pro-shadow: rgba(38, 64, 28, .55);--field-off: rgba(238, 241, 231, .13);--field-mem: rgba(156, 196, 110, .45);--field-band: rgba(238, 241, 231, .05);--top-night: rgba(12, 16, 9, .72);--top-paper: rgba(250, 250, 246, .8);--font-display: "Alegreya Sans", "Avenir Next", "Segoe UI", system-ui, sans-serif;--font-text: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui, sans-serif;--t-hero: 800 clamp(46px, 7.6vw, 108px)/.96 var(--font-display);--t-h2: 800 clamp(38px, 5.6vw, 76px)/1 var(--font-display);--t-h3: 800 clamp(28px, 3.3vw, 44px)/1.04 var(--font-display);--t-lead: 400 clamp(18px, 1.55vw, 22px)/1.45 var(--font-text);--t-body: 400 17px/1.5 var(--font-text);--t-small: 400 14px/1.5 var(--font-text);--ease: cubic-bezier(.22, .8, .22, 1)}html{scroll-padding-top:56px}@media (prefers-reduced-motion: no-preference){html{scroll-behavior:smooth}}body{margin:0;background:var(--night);color:var(--ink);font:var(--t-body);-webkit-font-smoothing:antialiased}main{display:block;overflow-x:clip}a:focus-visible,button:focus-visible{outline:2px solid var(--moss);outline-offset:3px;border-radius:8px}[data-tone=night] a:focus-visible,[data-tone=night] button:focus-visible{outline-color:var(--sprout)}.nw-top{position:fixed;z-index:40;top:0;left:0;right:0;box-sizing:border-box;height:calc(52px + env(safe-area-inset-top,0px));padding:env(safe-area-inset-top,0px) max(16px,calc((100% - 1160px)/2)) 0;display:flex;align-items:center;gap:16px;background:var(--top-night);color:var(--on-night);-webkit-backdrop-filter:saturate(1.5) blur(20px);backdrop-filter:saturate(1.5) blur(20px);border-bottom:1px solid var(--night-line);transition:background-color .35s,color .35s,border-color .35s}.nw-top[data-tone=light]{background:var(--top-paper);color:var(--ink);border-color:var(--line)}.nw-brand{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:inherit;text-decoration:none;font:800 23px/1 var(--font-display);letter-spacing:-.01em}.nw-logo{width:17px;height:21px;fill:var(--sprout);transition:fill .35s}.nw-top[data-tone=light] .nw-logo{fill:var(--moss)}.nw-links{display:flex;gap:2px;margin-left:auto}.nw-links a{padding:10px 12px;border-radius:999px;color:inherit;opacity:.8;text-decoration:none;font:500 14px/1 var(--font-text);transition:opacity .2s}.nw-links a:hover{opacity:1}.nw-pill{display:inline-flex;align-items:center;min-height:34px;padding:0 16px;border-radius:999px;background:var(--sprout);color:var(--night);text-decoration:none;font:600 14px/1 var(--font-text);transition:background-color .35s,color .35s}.nw-top[data-tone=light] .nw-pill{background:var(--moss);color:var(--paper)}@media (max-width: 720px){.nw-links{display:none}.nw-pill{margin-left:auto}}.nw-sec{position:relative;padding-block:clamp(96px,13vw,168px);padding-inline:clamp(16px,4vw,48px);scroll-margin-top:52px}section[data-tone=night]{background:var(--night);color:var(--on-night);color-scheme:dark}section[data-tone=paper]{background:var(--paper);color:var(--ink)}section[data-tone=paper-2]{background:var(--paper-2);color:var(--ink)}section[data-tone=shell]{background:var(--shell);color:var(--ink)}.nw-wrap{max-width:1160px;margin-inline:auto}.nw-head{margin-bottom:clamp(48px,7vw,88px)}.nw-center{text-align:center}.nw-center .nw-lead{margin-inline:auto}.nw-eyebrow{margin:0 0 16px;font:600 clamp(17px,1.5vw,21px)/1.3 var(--font-text);color:var(--moss)}section[data-tone=night] .nw-eyebrow{color:var(--sprout)}.nw-h2{margin:0;font:var(--t-h2);letter-spacing:-.015em;text-wrap:balance}.nw-h3{margin:0;font:var(--t-h3);letter-spacing:-.01em;text-wrap:balance}.nw-lead{margin:24px 0 0;max-width:34em;font:var(--t-lead);color:var(--ink-2);text-wrap:pretty}section[data-tone=night] .nw-lead{color:var(--on-night-2)}.nw-phone{display:flex;justify-content:center}.nw-phone .phone-slot{flex:none}.nw-phone .device{box-shadow:inset 0 0 0 1.5px var(--device-edge),0 30px 80px -30px var(--phone-shadow)}section[data-tone=night] .nw-phone .device{box-shadow:inset 0 0 0 1.5px var(--device-edge),0 0 0 1px var(--night-line),0 40px 140px -30px var(--phone-glow)}.nw-still,.nw-still *,.nw-still *:before,.nw-still *:after{animation:none!important;transition:none!important}.nw-bigegg,.nw-endegg{position:relative}.nw-bigegg svg,.nw-endegg svg{position:relative;display:block;width:100%;height:auto;overflow:visible}.nw-halo{position:absolute;left:50%;top:56%;width:300%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(closest-side,var(--halo),var(--halo-2) 50%,transparent);pointer-events:none}.nw-hero{position:relative;background:radial-gradient(90% 60% at 50% 30%,var(--night-glow),var(--night) 70%);color:var(--on-night)}.nw-stage{position:relative}.nw-copy{position:relative;z-index:2;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;text-align:center;padding:128px clamp(16px,4vw,48px) 72px}.nw-egg-slot{width:clamp(104px,11vw,150px);margin-bottom:22px}.nw-bigegg{transform-origin:0 0}.nw-copy-txt{display:flex;flex-direction:column;align-items:center}.nw-kicker{margin:0 0 14px;font:600 clamp(15px,1.3vw,18px)/1.3 var(--font-text);color:var(--sprout)}.nw-hero h1{max-width:11em;margin:0;font:var(--t-hero);letter-spacing:-.02em;text-wrap:balance}.nw-hero h1 em{font-style:italic}.nw-sub{max-width:31em;margin:22px 0 0;font:var(--t-lead);color:var(--on-night-2);text-wrap:balance}.nw-ctas{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px 28px;margin-top:32px}.nw-btn{display:inline-flex;align-items:center;min-height:48px;padding:0 26px;border-radius:999px;background:var(--sprout);color:var(--night);text-decoration:none;font:600 17px/1 var(--font-text);transition:background-color .2s,transform .2s var(--ease)}.nw-btn:hover{background:var(--sprout-hi);transform:translateY(-1px)}.nw-more{display:inline-flex;align-items:center;min-height:44px;color:var(--sprout);text-decoration:none;font:500 17px/1 var(--font-text)}.nw-more:after{content:"\203a";margin-left:6px;font-size:1.25em;transition:transform .2s var(--ease)}.nw-more:hover:after{transform:translate(3px)}.nw-show{position:relative;z-index:1;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,400px);gap:32px 64px;align-items:center;max-width:1080px;margin:0 auto;padding:0 clamp(16px,4vw,48px) 128px}.nw-anchor{display:block;grid-column:1 / -1;height:0}.nw-beat-stack{display:flex;flex-direction:column;gap:40px}.nw-beat h2{margin:0;font:var(--t-h3);letter-spacing:-.01em;text-wrap:balance}.nw-beat p{max-width:26em;margin:12px 0 0;font:var(--t-lead);color:var(--on-night-2);text-wrap:pretty}.nw-cap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:36px 0 0;font:var(--t-small);color:var(--on-night-2)}.nw-again{min-height:44px;padding:0 18px;border:1px solid var(--night-line);border-radius:999px;background:transparent;color:var(--sprout);font:600 14px/1 var(--font-text);cursor:pointer}.nw-again:hover{border-color:var(--sprout)}.nw-live-wrap{display:flex;justify-content:center;min-width:0}@media (max-width: 860px){.nw-show{grid-template-columns:minmax(0,1fr)}.nw-live-wrap{order:-1}.nw-anchor{order:-2}}.nw-hero[data-mode=scroll]{height:360vh;height:360svh}.nw-hero[data-mode=scroll] .nw-stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}.nw-hero[data-mode=scroll] .nw-copy{position:absolute;inset:0;justify-content:center;padding-top:52px;padding-bottom:40px;pointer-events:none}.nw-hero[data-mode=scroll] .nw-copy-txt{pointer-events:auto;will-change:opacity,transform}.nw-hero[data-mode=scroll] .nw-bigegg{will-change:transform,opacity}.nw-hero[data-mode=scroll] .nw-show{position:absolute;inset:0;display:block;max-width:none;padding:0}.nw-hero[data-mode=scroll] .nw-live-wrap{display:block}.nw-hero[data-mode=scroll] #nw-live{position:absolute;transform:translate3d(0,120vh,0);will-change:transform}.nw-hero[data-mode=scroll] #nw-live .legg{opacity:var(--legg-o, 0)}.nw-hero[data-mode=scroll] .nw-beats{position:absolute;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center}.nw-hero[data-mode=scroll] .nw-beat-stack{display:grid}.nw-hero[data-mode=scroll] .nw-beat{grid-area:1 / 1;opacity:0;will-change:opacity,transform}.nw-hero[data-mode=scroll] .nw-cap{opacity:var(--cap, 0)}.nw-hero[data-mode=scroll] .nw-beats[data-wide="0"]{justify-content:flex-start;text-align:center}.nw-hero[data-mode=scroll] .nw-beats[data-wide="0"] .nw-beat h2{font-size:clamp(26px,7.4vw,34px)}.nw-hero[data-mode=scroll] .nw-beats[data-wide="0"] .nw-beat p{margin:8px auto 0;font-size:17px}.nw-hero[data-mode=scroll] .nw-beats[data-wide="0"] .nw-cap{justify-content:center;margin-top:14px}@media (max-height: 700px){.nw-hero[data-mode=scroll] .nw-beats[data-wide="0"] .nw-cap{display:none}}.nw-say{max-width:21em;margin:0;font:800 clamp(32px,4.6vw,64px)/1.08 var(--font-display);letter-spacing:-.012em;text-wrap:pretty}.nw-say.nw-lit .nw-wd{color:var(--ink-faint);transition:color .3s}.nw-say.nw-lit .nw-wd.on{color:var(--ink)}.nw-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin:clamp(64px,9vw,112px) 0 0;padding:0;list-style:none}.nw-pillars svg{display:block;width:34px;height:34px;color:var(--moss)}.nw-pillars h3{margin:18px 0 0;font:800 27px/1.1 var(--font-display)}.nw-pillars p{max-width:22em;margin:8px 0 0;color:var(--ink-2)}@media (max-width: 760px){.nw-pillars{grid-template-columns:minmax(0,1fr);gap:36px}}.nw-feat-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px}.nw-feat{display:flex;align-items:center;min-height:86vh;min-height:86svh}.nw-feat-txt{max-width:27em}.nw-chip{display:inline-flex;margin:0;padding:7px 12px;border-radius:999px;background:var(--chip);color:var(--ink-2);font:600 13px/1 var(--font-text)}.nw-chip.is-live{background:var(--moss);color:var(--paper)}.nw-feat h3{margin:16px 0 0;font:var(--t-h3);letter-spacing:-.01em;text-wrap:balance}.nw-feat-txt>p:last-child{margin:16px 0 0;font:var(--t-lead);color:var(--ink-2);text-wrap:pretty}.nw-feat-fig{display:none;min-width:0}.nw-feat-side{position:relative;min-width:0}.nw-stack{position:sticky;top:calc(50vh - 488px * var(--s, .6) + 26px);width:calc(460px * var(--s, .6));height:calc(976px * var(--s, .6));margin-inline:auto}.nw-stack .nw-phone{position:absolute;inset:0;opacity:0;transform:scale(.96);transition:opacity .6s var(--ease),transform .8s var(--ease)}.nw-stack .nw-phone.on{opacity:1;transform:none}@media (max-width: 900px){.nw-feat-grid{grid-template-columns:minmax(0,1fr)}.nw-feat-side{display:none}.nw-feat{flex-direction:column;align-items:stretch;gap:32px;min-height:0;padding-block:36px}.nw-feat-fig{display:block}}.nw-field{margin:0}.nw-field-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin-bottom:18px;font:500 14px/1.4 var(--font-text);color:var(--on-night-2)}.nw-legend{display:inline-flex;flex-wrap:wrap;gap:6px 20px}.nw-legend i{display:inline-block;width:9px;height:9px;margin-right:8px;border-radius:50%}.nw-k-mem{background:var(--egg-glow)}.nw-k-read{background:var(--straw)}#nw-field{display:block;width:100%;height:380px}.nw-field figcaption{max-width:46em;margin-top:22px;font:400 15px/1.55 var(--font-text);color:var(--on-night-2)}.nw-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin-top:clamp(80px,10vw,128px)}.nw-big{margin:0;font:800 clamp(64px,8vw,112px)/.95 var(--font-display);letter-spacing:-.02em;font-variant-numeric:tabular-nums;white-space:nowrap}.nw-big small{margin-left:8px;font:700 clamp(20px,2vw,28px)/1 var(--font-display);letter-spacing:0;color:var(--sprout)}.nw-stat>p:last-child{max-width:18em;margin:14px 0 0;color:var(--on-night-2)}.nw-note{margin:36px 0 0;font:var(--t-small);color:var(--on-night-2)}.nw-tech{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px 64px;margin-top:clamp(96px,12vw,144px);padding-top:48px;border-top:1px solid var(--night-line)}.nw-tech-txt p{margin:16px 0 0;font:var(--t-lead);color:var(--on-night-2)}.nw-chips{display:flex;flex-wrap:wrap;align-content:start;gap:10px;margin:0;padding:0;list-style:none}.nw-chips li{padding:10px 16px;border:1px solid var(--night-line);border-radius:999px;background:var(--night-2);color:var(--on-night);font:500 15px/1.2 var(--font-text)}.nw-chips small{margin-left:6px;color:var(--straw);font-size:13px}@media (max-width: 860px){.nw-stats,.nw-tech{grid-template-columns:minmax(0,1fr)}}.nw-plans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:920px;margin-inline:auto}.nw-plan{position:relative;box-sizing:border-box;display:flex;flex-direction:column;padding:clamp(28px,4vw,44px);border-radius:32px;background:var(--paper);box-shadow:0 1px 0 var(--line),0 24px 60px -36px var(--phone-shadow)}.nw-plan h3{margin:0;font:800 28px/1.1 var(--font-display)}.nw-price{margin:18px 0 0;font:800 clamp(48px,6vw,72px)/1 var(--font-display);letter-spacing:-.02em}.nw-price small{display:block;margin-top:10px;font:500 15px/1 var(--font-text);letter-spacing:0}.nw-plan ul{display:grid;gap:12px;margin:28px 0 0;padding:0;list-style:none}.nw-plan li{position:relative;padding-left:24px}.nw-plan li:before{content:"";position:absolute;left:1px;top:.55em;width:9px;height:9px;border-radius:50%;background:var(--moss)}.nw-plan.is-pro{background:linear-gradient(160deg,var(--pro-0),var(--pro-1) 60%,var(--pro-2));color:var(--pro-text);box-shadow:0 30px 80px -34px var(--pro-shadow)}.nw-plan.is-pro h3,.nw-plan.is-pro .nw-price{color:var(--on-night)}.nw-plan.is-pro li:before{background:var(--straw)}.nw-tag{position:absolute;top:clamp(28px,4vw,44px);right:clamp(28px,4vw,44px);margin:0;padding:6px 10px;border-radius:8px;background:var(--straw-fill);color:var(--straw-ink);font:800 13px/1 var(--font-text);letter-spacing:.08em}.nw-plan-note{margin:auto 0 0;padding-top:28px;font:var(--t-small)}@media (max-width: 720px){.nw-plans{grid-template-columns:minmax(0,1fr)}}.nw-chart{margin:0}.nw-plot{--grow-from: scaleY(.04);position:relative;display:flex;gap:clamp(10px,2vw,28px);height:300px;padding-top:30px;border-bottom:1px solid var(--ink);view-timeline:--plot block}.nw-bar{position:relative;flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center}.nw-bar b{position:relative;z-index:1;margin-bottom:6px;padding:2px 4px;border-radius:4px;background:var(--paper);font:800 clamp(18px,2vw,25px)/1 var(--font-display);white-space:nowrap}.nw-bar i{display:block;width:100%;max-width:92px;height:calc(var(--v) / 12 * 100%);border-radius:12px 12px 3px 3px;background:var(--bar);transform-origin:bottom}.nw-bar.is-now b{color:var(--moss)}.nw-bar.is-now i{background:var(--moss)}.nw-bar span{position:absolute;top:calc(100% + 12px);left:-4px;right:-4px;text-align:center;font:400 13px/1.35 var(--font-text);color:var(--ink-2)}.nw-target{position:absolute;left:0;right:0;bottom:calc((100% - 30px) * 10 / 12);border-top:2px dashed var(--moss);pointer-events:none}.nw-target span{position:absolute;left:0;bottom:6px;padding:2px 4px;background:var(--paper);color:var(--moss);font:600 13px/1 var(--font-text);white-space:nowrap}.nw-chart figcaption{max-width:46em;margin-top:88px;font:var(--t-small);color:var(--ink-2)}@media (max-width: 640px){.nw-plot{--grow-from: scaleX(.04);flex-direction:column;gap:14px;height:auto;margin:36px 0 0 118px;padding:0;border-bottom:0;border-left:1px solid var(--ink)}.nw-bar{flex:none;flex-direction:row;justify-content:flex-start;height:34px}.nw-bar i{width:calc(var(--v) / 12 * 100%);max-width:none;height:100%;border-radius:3px 10px 10px 3px;transform-origin:left}.nw-bar b{order:1;margin:0 0 0 6px}.nw-bar span{top:50%;left:auto;right:calc(100% + 10px);width:108px;transform:translateY(-50%);text-align:right;font-size:12px}.nw-target{top:-26px;bottom:-8px;left:calc(100% * 10 / 12);right:auto;border-top:0;border-left:2px dashed var(--moss)}.nw-target span{inset:0 6px auto auto}.nw-chart figcaption{margin-top:28px}}.nw-econ{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px 64px;align-items:center;margin-top:clamp(104px,12vw,152px)}.nw-zero{margin:0;font:600 17px/1.3 var(--font-text);color:var(--ink-2)}.nw-zero span{display:block;margin-bottom:10px;font:800 clamp(104px,15vw,210px)/.86 var(--font-display);letter-spacing:-.03em;color:var(--moss)}.nw-road{margin-top:clamp(104px,12vw,152px)}.nw-road ol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin:40px 0 0;padding:0;list-style:none}.nw-road li{padding-top:24px;border-top:3px solid var(--line)}.nw-road li.is-done{border-top-color:var(--moss)}.nw-road li.is-now{border-top-color:var(--straw)}.nw-st{margin:0;font:600 13px/1 var(--font-text);color:var(--ink-2)}.nw-road .is-done .nw-st{color:var(--moss)}.nw-road .is-now .nw-st{color:var(--straw-ink)}.nw-road h4{margin:12px 0 0;font:800 23px/1.12 var(--font-display);text-wrap:balance}.nw-road li>p:last-child{margin:8px 0 0;font:400 15px/1.5 var(--font-text);color:var(--ink-2)}.nw-founder{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 32px;margin-top:clamp(80px,10vw,120px);padding:32px clamp(24px,4vw,40px);border-radius:28px;background:var(--paper-2)}.nw-founder h3{margin:0;font:800 28px/1.1 var(--font-display)}.nw-founder p{margin:0;color:var(--ink-2)}@media (max-width: 860px){.nw-econ{grid-template-columns:minmax(0,1fr)}.nw-road ol{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (max-width: 520px){.nw-road ol{grid-template-columns:minmax(0,1fr)}}.nw-end{padding-bottom:56px;text-align:center}.nw-endegg{width:clamp(72px,8vw,100px);margin:0 auto 40px}.nw-end .nw-lead{margin-inline:auto}.nw-foot{display:grid;gap:12px;max-width:1160px;margin:clamp(120px,14vw,176px) auto 0;padding-top:28px;border-top:1px solid var(--night-line);text-align:left;font:400 13px/1.55 var(--font-text);color:var(--on-night-2)}.nw-foot p{max-width:75em;margin:0}@media (prefers-reduced-motion: no-preference){.nw-egg-in{animation:nw-egg-on 1.6s var(--ease) both}.nw-halo{animation:nw-breathe 4s ease-in-out 1.6s infinite}.nw-in{animation:nw-up 1s var(--ease) both;animation-delay:calc(.45s + var(--d, 0) * .12s)}@supports (animation-timeline: view()){.nw-rv{animation:nw-rise linear both;animation-timeline:view();animation-range:entry 0% entry 80%}.nw-bar i{animation:nw-grow linear both;animation-timeline:--plot;animation-range:entry calc(30% + var(--i, 0) * 7%) cover 55%}.nw-bar b{animation:nw-fade linear both;animation-timeline:--plot;animation-range:entry calc(55% + var(--i, 0) * 7%) cover 60%}}}@keyframes nw-egg-on{0%{opacity:.15;transform:translateY(16px) scale(.92)}}@keyframes nw-breathe{50%{opacity:.7;transform:translate(-50%,-50%) scale(1.08)}}@keyframes nw-up{0%{opacity:0;transform:translateY(24px)}}@keyframes nw-rise{0%{opacity:0;transform:translateY(56px)}}@keyframes nw-grow{0%{transform:var(--grow-from)}}@keyframes nw-fade{0%{opacity:0}}</style>
+</head>
+<body>
+<header class="nw-top" data-tone="night">
+  <a class="nw-brand" href="#inicio"><svg class="nw-logo" viewBox="0 0 40 50" aria-hidden="true"><path transform="rotate(-12 20 26)" d="M20 2C30 2 37 16 37 28C37 40 29 48 20 48C11 48 3 40 3 28C3 16 10 2 20 2Z"/></svg>Nido</a>
+  <nav class="nw-links" aria-label="Secciones">
+    <a href="#privacidad">Privacidad</a>
+    <a href="#funciones">Funciones</a>
+    <a href="#ovum">Ovum</a>
+    <a href="#pro">Precio</a>
+  </nav>
+  <a class="nw-pill" href="#inversores">Inversores</a>
+</header>
+
+<main>
+  <section id="inicio" class="nw-hero" data-tone="night" data-mode="static">
+    <div class="nw-stage">
+      <div class="nw-copy">
+        <div class="nw-egg-slot">
+          <div class="nw-bigegg" aria-hidden="true">
+            <div class="nw-egg-in">
+              <div class="nw-halo"></div>
+              <svg viewBox="0 0 120 150" width="120" height="150">
+                <defs>
+                  <linearGradient id="hx-b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--egg-0)"/><stop offset="0.55" style="stop-color:var(--egg-1)"/><stop offset="1" style="stop-color:var(--egg-2)"/></linearGradient>
+                  <radialGradient id="hx-g" cx="0.5" cy="0.86" r="0.66"><stop offset="0" style="stop-color:var(--egg-glow);stop-opacity:0.95"/><stop offset="0.48" style="stop-color:var(--egg-glow);stop-opacity:0.42"/><stop offset="1" style="stop-color:var(--egg-glow);stop-opacity:0"/></radialGradient>
+                  <radialGradient id="hx-h"><stop offset="0" style="stop-color:var(--egg-shine);stop-opacity:0.8"/><stop offset="1" style="stop-color:var(--egg-shine);stop-opacity:0"/></radialGradient>
+                </defs>
+                <g transform="rotate(-8 60 78)">
+                  <path d="M60 6C90 6 111 48 111 84C111 120 87 144 60 144C33 144 9 120 9 84C9 48 30 6 60 6Z" fill="url(#hx-b)"/>
+                  <path d="M60 6C90 6 111 48 111 84C111 120 87 144 60 144C33 144 9 120 9 84C9 48 30 6 60 6Z" fill="url(#hx-g)"/>
+                  <path d="M60 6C90 6 111 48 111 84C111 120 87 144 60 144C33 144 9 120 9 84C9 48 30 6 60 6Z" fill="none" style="stroke:var(--egg-rim)" stroke-width="1.2"/>
+                  <ellipse cx="42" cy="42" rx="18" ry="11" transform="rotate(-34 42 42)" fill="url(#hx-h)"/>
+                  <ellipse cx="37" cy="36" rx="4.4" ry="2.5" transform="rotate(-34 37 36)" style="fill:var(--egg-shine)" opacity="0.9"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="nw-copy-txt">
+          <p class="nw-kicker nw-in" style="--d:0">Próximamente para iPhone</p>
+          <h1 class="nw-in" style="--d:1">La IA que vive <em>en tu iPhone.</em></h1>
+          <p class="nw-sub nw-in" style="--d:2">Nido ejecuta un modelo de 35.000 millones de parámetros dentro del propio teléfono. Sin nube, sin cuenta y sin conexión.</p>
+          <div class="nw-ctas nw-in" style="--d:3">
+            <a class="nw-btn" id="nw-watch" href="#demo">Míralo responder</a>
+            <a class="nw-more" href="#ovum">Cómo es posible</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="nw-show">
+        <span class="nw-anchor" id="demo"></span>
+        <div class="nw-beats">
+          <div class="nw-beat-stack">
+            <div class="nw-beat">
+              <h2>Pregúntale lo que quieras.</h2>
+              <p>Los asistentes que funcionan dentro de un móvil suelen usar modelos de unos 3.000 millones de parámetros. El de Nido tiene 35.000 millones.</p>
+            </div>
+            <div class="nw-beat">
+              <h2>La primera palabra, en 1,6 segundos.</h2>
+              <p>Y el resto, a 7,6 tokens por segundo: la velocidad medida en un iPhone 16 Pro Max, la misma que ves en la pantalla.</p>
+            </div>
+            <div class="nw-beat">
+              <h2>Siempre sabes qué está haciendo.</h2>
+              <p>El huevo se llena mientras Nido lee tu mensaje y acompaña a cada palabra mientras escribe.</p>
+            </div>
+          </div>
+          <p class="nw-cap">Pantalla de las demos de diseño de Nido; la respuesta es de ejemplo. <button type="button" class="nw-again" id="nw-again" hidden>Repetir</button></p>
+        </div>
+        <div class="nw-live-wrap">
+          <div class="nw-phone" id="nw-live" data-live="1" role="img" aria-label="Nido responde en el iPhone a «¿Por qué fue tan grave la crisis de 1929?», a 7,6 tokens por segundo.">
+            <div class="phone-slot"><div class="device"><div class="nido" data-ui="dark" inert></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacidad" class="nw-sec" data-tone="paper">
+    <div class="nw-wrap">
+      <h2 class="nw-eyebrow">Privacidad</h2>
+      <p class="nw-say">Lo que le cuentas a Nido no sale de tu iPhone. No hay cuenta que crear ni servidor que lo reciba, así que no hay nada que se pueda filtrar ni nada que sirva para entrenar a nadie.</p>
+      <ul class="nw-pillars">
+        <li class="nw-rv">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8.5" r="3.7"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/><path d="M3.5 3.5l17 17"/></svg>
+          <h3>Sin cuenta</h3>
+          <p>Ni correo ni contraseña. Abres la app y escribes.</p>
+        </li>
+        <li class="nw-rv">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 18.5h9.5a4 4 0 0 0 .7-7.94A6 6 0 0 0 6.3 10.8a3.9 3.9 0 0 0 1.2 7.7z"/><path d="M3.5 3.5l17 17"/></svg>
+          <h3>Sin nube</h3>
+          <p>Las conversaciones se guardan solo en tu iPhone.</p>
+        </li>
+        <li class="nw-rv">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.6 9.2V4.4a1.4 1.4 0 0 1 2.8 0v4.8l7.1 4.1v2l-7.1-2.1v4.4l2.1 1.6v1.6L12 19.9l-3.5.9v-1.6l2.1-1.6v-4.4l-7.1 2.1v-2z"/></svg>
+          <h3>Sin conexión</h3>
+          <p>Responde igual en un avión, en el metro o donde no hay cobertura.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="funciones" class="nw-sec" data-tone="paper-2">
+    <div class="nw-wrap">
+      <header class="nw-head nw-rv">
+        <p class="nw-eyebrow">Funciones</p>
+        <h2 class="nw-h2">Un asistente completo, sin salir del teléfono.</h2>
+        <p class="nw-lead">El chat ya funciona en la app. El resto está diseñado y en desarrollo: estas pantallas son sus demos.</p>
+      </header>
+      <div class="nw-feat-grid">
+        <div class="nw-feat-list">
+          <article class="nw-feat" data-screen="anadir">
+            <div class="nw-feat-txt">
+              <p class="nw-chip is-live">Ya en la app</p>
+              <h3>Escribe, pregunta, pide que razone.</h3>
+              <p>Chatea sin límite y, con Nido Pro, deja que razone antes de responder. Desde el cristal «Añadir» podrás sumar fotos, documentos y archivos del Mac.</p>
+            </div>
+            <div class="nw-feat-fig"><div class="nw-phone" role="img" aria-label="El chat de Nido con el cristal «Añadir» abierto."><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div></div>
+          </article>
+          <article class="nw-feat" data-screen="voz">
+            <div class="nw-feat-txt">
+              <p class="nw-chip">Próximamente</p>
+              <h3>Habla con Nido.</h3>
+              <p>Hablas y Nido contesta en voz alta, a pantalla completa. Escuchar y hablar también ocurren dentro del iPhone: el audio no se guarda ni sale del teléfono.</p>
+            </div>
+            <div class="nw-feat-fig"><div class="nw-phone" role="img" aria-label="El modo conversación de Nido mientras habla."><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div></div>
+          </article>
+          <article class="nw-feat" data-screen="accion">
+            <div class="nw-feat-txt">
+              <p class="nw-chip">Próximamente</p>
+              <h3>Pídele que lo prepare.</h3>
+              <p>Nido prepara recordatorios, eventos y notas, y tú confirmas cada uno en una tarjeta. Nunca hace nada sin tu permiso.</p>
+            </div>
+            <div class="nw-feat-fig"><div class="nw-phone" role="img" aria-label="Nido propone un recordatorio en una tarjeta para confirmarlo."><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div></div>
+          </article>
+          <article class="nw-feat" data-screen="siri">
+            <div class="nw-feat-txt">
+              <p class="nw-chip">Próximamente</p>
+              <h3>Con Siri y el botón de Acción.</h3>
+              <p>Pide a Siri que Nido te prepare un recordatorio sin abrir la app, o empieza a hablar con Nido desde el botón de Acción o el Centro de control.</p>
+            </div>
+            <div class="nw-feat-fig"><div class="nw-phone" role="img" aria-label="Siri usa Nido para preparar un recordatorio sin abrir la app."><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div></div>
+          </article>
+          <article class="nw-feat" data-screen="memoria">
+            <div class="nw-feat-txt">
+              <p class="nw-chip">Próximamente</p>
+              <h3>Recuerda lo que le pidas.</h3>
+              <p>«Recuerda que soy vegetariano». Nido lo guarda solo en este iPhone, y puedes cambiarlo o borrarlo cuando quieras.</p>
+            </div>
+            <div class="nw-feat-fig"><div class="nw-phone" role="img" aria-label="Nido guarda un recuerdo que le has pedido."><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div></div>
+          </article>
+        </div>
+        <div class="nw-feat-side" aria-hidden="true">
+          <div class="nw-stack">
+            <div class="nw-phone" data-screen="anadir"><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div>
+            <div class="nw-phone" data-screen="voz"><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div>
+            <div class="nw-phone" data-screen="accion"><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div>
+            <div class="nw-phone" data-screen="siri"><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div>
+            <div class="nw-phone" data-screen="memoria"><div class="phone-slot"><div class="device"><div class="nido" data-ui="light" inert></div></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ovum" class="nw-sec" data-tone="night">
+    <div class="nw-wrap">
+      <header class="nw-head nw-rv">
+        <p class="nw-eyebrow">Ovum, el motor de Nido</p>
+        <h2 class="nw-h2">20 GB de modelo.<br>8 GB de memoria.</h2>
+        <p class="nw-lead">El modelo de Nido ocupa unos 20 GB y el iPhone 16 Pro Max tiene 8 de memoria. Ovum, el motor de inferencia de Nido, deja en memoria lo imprescindible y lee el resto del almacenamiento mientras escribe.</p>
+      </header>
+      <figure class="nw-field nw-rv">
+        <div class="nw-field-top">
+          <span>Qwen3.6-35B-A3B · 40 capas × 256 expertos</span>
+          <span class="nw-legend"><span><i class="nw-k-mem"></i>Ya en memoria</span><span><i class="nw-k-read"></i>Leído del almacenamiento</span></span>
+        </div>
+        <canvas id="nw-field" role="img" aria-label="Cada fila es una capa del modelo y cada punto, un experto. En cada capa se encienden 8 expertos: casi todos ya están en memoria y unos pocos se leen del almacenamiento."></canvas>
+        <figcaption>Cada fila es una de las 40 capas del modelo, y cada punto, uno de sus 256 expertos. Para escribir un token, Nido pasa por 8 expertos de cada capa. El 92–93 % ya están en memoria cuando hacen falta, porque Ovum aprende cuáles usas más; el resto se lee del almacenamiento a 1,74 GB/s. Aquí va a cámara lenta: en el iPhone, un token tarda 132 ms.</figcaption>
+      </figure>
+      <div class="nw-stats">
+        <div class="nw-stat nw-rv">
+          <p class="nw-big"><span class="nw-num" data-count="9.3" data-dec="1">9,3</span><small>tokens/s</small></p>
+          <p>al empezar a responder, y 7,6 de media</p>
+        </div>
+        <div class="nw-stat nw-rv">
+          <p class="nw-big"><span class="nw-num" data-count="1.6" data-dec="1">1,6</span><small>s</small></p>
+          <p>hasta la primera palabra de un chat nuevo; antes, 6,4 s</p>
+        </div>
+        <div class="nw-stat nw-rv">
+          <p class="nw-big"><span class="nw-num" data-count="34" data-dec="0">34</span><small>s</small></p>
+          <p>para leer un texto de 3.000 tokens; antes, 5,7 minutos</p>
+        </div>
+      </div>
+      <p class="nw-note">Medido en un iPhone 16 Pro Max, con la app abierta desde su icono. Un token es el trozo de texto con el que trabaja el modelo: en español, unos 3,6 caracteres.</p>
+      <div class="nw-tech">
+        <div class="nw-tech-txt nw-rv">
+          <h3 class="nw-h3">Catorce técnicas propias.</h3>
+          <p>Ovum parte de colibri, un motor abierto que ejecuta modelos de expertos enormes en ordenadores. Para llevarlo a un teléfono, todo el código de la GPU y alrededor del 40 % del código del modelo son nuevos.</p>
+        </div>
+        <ul class="nw-chips nw-rv">
+          <li>Caché que aprende</li>
+          <li>Tronco mixto de 4 y 8 bits</li>
+          <li>Escalas qs16</li>
+          <li>Enrutado que conoce la caché</li>
+          <li>Adelanto de capas</li>
+          <li>Predictor de expertos<small>en estudio</small></li>
+          <li>Ejecutor propio en Metal</li>
+          <li>Lectura en la GPU capa a capa</li>
+          <li>Arranque en caliente</li>
+          <li>Elegir sin ordenar el vocabulario</li>
+          <li>Espera activa con WFE</li>
+          <li>Regulador de calor<small>en prueba</small></li>
+          <li>Interfaz ligera mientras responde</li>
+          <li>Una interfaz que dice la verdad</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="pro" class="nw-sec" data-tone="shell">
+    <div class="nw-wrap">
+      <header class="nw-head nw-center nw-rv">
+        <p class="nw-eyebrow">Precio</p>
+        <h2 class="nw-h2">Gratis. Y Pro, con un solo pago.</h2>
+        <p class="nw-lead">Sin suscripción: el modelo funciona en tu iPhone, así que no hay servidores que pagar cada mes.</p>
+      </header>
+      <div class="nw-plans">
+        <article class="nw-plan nw-rv">
+          <h3>Nido</h3>
+          <p class="nw-price">Gratis</p>
+          <ul>
+            <li>Chatea con el modelo, sin límite</li>
+            <li>Todo en el iPhone, sin cuenta</li>
+            <li>Cinco acciones cada 24 horas</li>
+          </ul>
+        </article>
+        <article class="nw-plan is-pro nw-rv">
+          <p class="nw-tag">PRO</p>
+          <h3>Nido Pro</h3>
+          <p class="nw-price">25,99 €<small>pago único</small></p>
+          <ul>
+            <li>Razonar antes de responder</li>
+            <li>Adjuntar documentos</li>
+            <li>«Resumir y seguir» cuando el chat se llena</li>
+            <li>Acciones sin límite</li>
+          </ul>
+          <p class="nw-plan-note">Compra dentro de la app, compatible con En familia.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="inversores" class="nw-sec" data-tone="paper">
+    <div class="nw-wrap">
+      <header class="nw-head nw-rv">
+        <p class="nw-eyebrow">Para inversores</p>
+        <h2 class="nw-h2">De 3,4 a 9,3 tokens por segundo en tres días.</h2>
+        <p class="nw-lead">Cada mejora de Ovum se mide en el mismo iPhone, con la app abierta desde su icono y el teléfono frío. El objetivo con este modelo es 10 tokens por segundo. Con Ling-3.0-tiny, un modelo de expertos más ligero que se está portando a Ovum, es 15–20.</p>
+      </header>
+      <figure class="nw-chart" aria-label="Velocidad de escritura de Nido en el iPhone, en tokens por segundo, del 9 al 11 de octubre de 2026.">
+        <div class="nw-plot">
+          <div class="nw-target"><span>Objetivo: 10</span></div>
+          <div class="nw-bar" style="--v:3.4;--i:0"><b>3,2–3,6</b><i></i><span>Hasta el 9 oct<br>Solo CPU</span></div>
+          <div class="nw-bar" style="--v:4.2;--i:1"><b>4,2</b><i></i><span>10 oct<br>En la GPU</span></div>
+          <div class="nw-bar" style="--v:5.5;--i:2"><b>5,5</b><i></i><span>10 oct<br>Adelanto de capas</span></div>
+          <div class="nw-bar" style="--v:6.9;--i:3"><b>6,9</b><i></i><span>10 oct<br>Interfaz ligera</span></div>
+          <div class="nw-bar" style="--v:7.6;--i:4"><b>7,6</b><i></i><span>11 oct<br>qs16 y WFE</span></div>
+          <div class="nw-bar is-now" style="--v:9.3;--i:5"><b>9,3</b><i></i><span>11 oct<br>Caché mayor</span></div>
+        </div>
+        <figcaption>Tokens por segundo en la app, en un iPhone 16 Pro Max. La última barra es la velocidad de los primeros 600 tokens de una respuesta; la media de esa prueba es 7,6.</figcaption>
+      </figure>
+
+      <div class="nw-econ nw-rv">
+        <p class="nw-zero"><span>0 €</span>de servidor por cada respuesta</p>
+        <div>
+          <h3 class="nw-h3">El iPhone hace el cálculo.</h3>
+          <p class="nw-lead">Un servicio de IA en la nube paga los servidores de cada respuesta que da. En Nido la calcula el iPhone del usuario. Por eso Nido Pro puede venderse con un pago único, y el producto sigue funcionando aunque cambien los precios de la nube.</p>
+        </div>
+      </div>
+
+      <div class="nw-road">
+        <h3 class="nw-h3 nw-rv">Lo que viene.</h3>
+        <ol>
+          <li class="is-done nw-rv">
+            <p class="nw-st">Hecho</p>
+            <h4>Nido responde en el iPhone</h4>
+            <p>Con Qwen3.6-35B-A3B, desde el 4 de octubre de 2026.</p>
+          </li>
+          <li class="is-done nw-rv">
+            <p class="nw-st">Hecho</p>
+            <h4>Ovum en la GPU del iPhone</h4>
+            <p>Caché que aprende, adelanto de capas y arranque en caliente, del 9 al 12 de octubre.</p>
+          </li>
+          <li class="is-now nw-rv">
+            <p class="nw-st">En curso</p>
+            <h4>Más rápido y más ligero</h4>
+            <p>10 tokens/s sostenidos con Qwen y el paso a Ling-3.0-tiny, con un objetivo de 15–20.</p>
+          </li>
+          <li class="nw-rv">
+            <p class="nw-st">Después</p>
+            <h4>Lanzamiento en la App Store</h4>
+            <p>Con las funciones de las demos y Nido Pro como compra única.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="nw-founder nw-rv">
+        <h3>Alberto Catalán Frutos</h3>
+        <p>Fundador. Diseña y desarrolla Nido y Ovum.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="nw-sec nw-end" data-tone="night">
+    <div class="nw-wrap">
+      <div class="nw-endegg nw-rv" aria-hidden="true">
+        <div class="nw-halo"></div>
+        <svg viewBox="0 0 120 150" width="120" height="150">
+          <defs>
+            <linearGradient id="ec-b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--egg-0)"/><stop offset="0.55" style="stop-color:var(--egg-1)"/><stop offset="1" style="stop-color:var(--egg-2)"/></linearGradient>
+            <radialGradient id="ec-g" cx="0.5" cy="0.86" r="0.66"><stop offset="0" style="stop-color:var(--egg-glow);stop-opacity:0.95"/><stop offset="0.48" style="stop-color:var(--egg-glow);stop-opacity:0.42"/><stop offset="1" style="stop-color:var(--egg-glow);stop-opacity:0"/></radialGradient>
+            <radialGradient id="ec-h"><stop offset="0" style="stop-color:var(--egg-shine);stop-opacity:0.8"/><stop offset="1" style="stop-color:var(--egg-shine);stop-opacity:0"/></radialGradient>
+          </defs>
+          <g transform="rotate(-8 60 78)">
+            <path d="M60 6C90 6 111 48 111 84C111 120 87 144 60 144C33 144 9 120 9 84C9 48 30 6 60 6Z" fill="url(#ec-b)"/>
+            <path d="M60 6C90 6 111 48 111 84C111 120 87 144 60 144C33 144 9 120 9 84C9 48 30 6 60 6Z" fill="url(#ec-g)"/>
+            <path d="M60 6C90 6 111 48 111 84C111 120 87 144 60 144C33 144 9 120 9 84C9 48 30 6 60 6Z" fill="none" style="stroke:var(--egg-rim)" stroke-width="1.2"/>
+            <ellipse cx="42" cy="42" rx="18" ry="11" transform="rotate(-34 42 42)" fill="url(#ec-h)"/>
+            <ellipse cx="37" cy="36" rx="4.4" ry="2.5" transform="rotate(-34 37 36)" style="fill:var(--egg-shine)" opacity="0.9"/>
+          </g>
+        </svg>
+      </div>
+      <h2 class="nw-h2 nw-rv">Todo se queda en el nido.</h2>
+      <p class="nw-lead nw-rv">Nido llega pronto al iPhone.</p>
+      <footer class="nw-foot">
+        <p>Datos a 12 de octubre de 2026, medidos en un iPhone 16 Pro Max (A18 Pro, 8 GB) con la app abierta desde su icono. Las pantallas son las demos de diseño de Nido: el chat ya funciona en la app y el resto de funciones está en desarrollo.</p>
+        <p>Qwen3.6-35B-A3B es del equipo Qwen de Alibaba Cloud (licencia Apache 2.0). Ovum © 2026 Alberto Catalán Frutos; deriva de colibri (Vincenzo Fornaro y colaboradores, licencia Apache 2.0). Ling-3.0-tiny es de inclusionAI. iPhone, Siri y App Store son marcas de Apple Inc.</p>
+      </footer>
+    </div>
+  </section>
+</main>
+
+<script src="kit.js"></script>
+<script src="pantallas.js"></script>
+<script>(function(){"use strict";const dt=window.Nido,$t=window.NidoPantallas||{};if(!dt)return;const{$:l,$$:F,el:$,esc:z,icon:kt,egg:ft,ui:X,tokOf:Ct}=dt,w=matchMedia("(prefers-reduced-motion: reduce)"),N="IntersectionObserver"in window,b=(t,e=0,n=1)=>Math.min(n,Math.max(e,t)),Z=(t,e,n)=>t+(e-t)*n,ht=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2,I=t=>getComputedStyle(document.documentElement).getPropertyValue(t).trim();let It=0;function S(t,e){const n=$t[e],o=l(".nido",t);if(!n||!o)return null;const s=++It;return o.className=n.cls+(t.dataset.live?"":" nw-still"),o.innerHTML=n.html.replace(/\b(le[BGH])-([a-z]+)\b/g,"$1-$2-"+s),o.dataset.motion=w.matches?"reduced":"full",o}const y=l("#inicio"),q=l(".nw-stage",y),U=l(".nw-copy-txt",y),T=l(".nw-bigegg",y),p=l("#nw-live"),R=l(".nw-beats",y),D=F(".nw-beat",y),G=l("#nw-again"),tt="\xBFPor qu\xE9 fue tan grave la crisis de 1929?",qt=["Porque coincidieron tres golpes. La bolsa hab\xEDa subido a cr\xE9dito, y su ca\xEDda arruin\xF3 a millones de peque\xF1os inversores. Despu\xE9s quebraron miles de bancos y, con ellos, los ahorros de la gente. Y los pa\xEDses se cerraron al comercio, as\xED que la crisis dur\xF3 una d\xE9cada.","Lo que la hizo distinta fue la duraci\xF3n: en Estados Unidos el paro lleg\xF3 al 25 % en 1933 y no baj\xF3 a niveles normales hasta la guerra."],ut=7.6;let u=null,P=!1,et=!0,nt=0,Q={x:170,y:224,w:120};function j(t,e){const n=l(".composer .action",t);if(!n)return;const o={stop:["","Detener respuesta"],send:["up","Enviar"],voz:["wave","Hablar con Nido"]};n.className="action k-"+e,n.setAttribute("aria-label",o[e][1]),n.innerHTML=e==="stop"?'<i class="sq"></i>':kt(o[e][0],e==="send"?18:19,e==="send"?2.6:2)}function pt(){nt++;const t=S(p,"nuevo");t&&j(t,"voz"),et=!1,G.hidden=!0}async function ot(){const t=++nt,e=h=>new Promise(M=>setTimeout(M,h)).then(()=>t===nt);if(et){const h=S(p,"nuevo");h&&j(h,"voz")}et=!0,G.hidden=!0;const n=l(".nido",p),o=l("textarea",n);if(!o||!await e(900))return;if(w.matches)o.value=tt;else for(const h of tt)if(o.value+=h,!await e(34))return;if(j(n,"send"),!await e(450))return;const s=l(".home",n);s&&s.remove(),l(".nav",n).outerHTML=X.nav({title:"Crisis de 1929"}),o.value="",o.placeholder="Pregunta a Nido",n.classList.add("gen"),j(n,"stop");const r=l(".list",n),i=l(".list-in",n),a=$(X.user(tt));a.classList.add("enter"),i.append(a);const d=$('<article class="msg-nido"></article>');i.append(d);const f=l(".bottom",n);d.style.minHeight=Math.max(0,r.clientHeight-118-(f?f.offsetHeight:0)-a.offsetHeight-26)+"px";const x=$(`<div class="steps" role="status"><div class="step now"><span class="mk">${ft("filling","inline",0)}</span><b>Leyendo</b><span class="det"></span></div></div>`);d.append(x);const L=l(".egg",x),m=l(".det",x);for(let h=1;h<=8;h++){if(!await e(200))return;L.style.setProperty("--lvl",(h/8).toFixed(3)),m.textContent=` \xB7 ${Math.round(h/8*100)} %`}x.remove();const v=$('<div class="md"></div>');d.append(v);const W=$(`<span class="tail">${ft("still")}</span>`);for(const h of qt){const M=document.createElement("p");v.append(M);let _=[];for(const K of h.split(" ")){if(!await e(Ct(K)/ut*1e3))return;W.remove(),w.matches?(_.push(K),/[.!?:]$/.test(K)&&(M.insertAdjacentHTML("beforeend",z(_.join(" "))+" "),_=[])):M.insertAdjacentHTML("beforeend",`<span class="w">${z(K)}</span> `),M.append(W)}W.remove(),_.length&&M.insertAdjacentHTML("beforeend",z(_.join(" "))+" ")}n.classList.remove("gen"),j(n,"voz"),d.append($(X.foot({tps:ut}))),G.hidden=!1}function mt(){y.dataset.mode=w.matches?"static":"scroll",[T,U,p,R,...D].forEach(t=>t.removeAttribute("style")),P=!1,pt(),st(),gt()}function st(){if(y.dataset.mode!=="scroll"){const m=p.parentElement.clientWidth;p.style.setProperty("--s",Math.max(.3,Math.min(.62,m/460)).toFixed(3)),u=null;return}const t=q.clientWidth,e=q.clientHeight,n=t>=880&&e>=560;let o,s,r,i;n?(o=Math.min(.8,(e-112)/976),i=Math.min(t*.2,300),s=(t-460*o)/2,r=Math.max(64,(e-976*o)/2+16)):(o=Math.max(.3,Math.min(.6,e*.54/976,(t-32)/460)),i=0,s=(t-460*o)/2,r=64);const a=976*o;if(p.style.setProperty("--s",o.toFixed(4)),p.style.left=s+"px",p.style.top=r+"px",n){const m=Math.max(24,(t-1160)/2+24),v=s+i-56;Object.assign(R.style,{left:m+"px",right:"auto",width:Math.max(260,v-m)+"px",top:r+"px",bottom:"auto",height:a+"px"})}else Object.assign(R.style,{left:"16px",right:"16px",width:"auto",top:r+a+18+"px",bottom:"12px",height:"auto"});R.dataset.wide=n?"1":"0",T.style.transform="none";const d=T.getBoundingClientRect(),f=q.getBoundingClientRect(),x=l(".legg svg",p),L=l(".phone-slot",p);if(x&&L){const m=x.getBoundingClientRect(),v=L.getBoundingClientRect();m.width&&(Q={x:(m.left-v.left)/o,y:(m.top-v.top)/o,w:m.width/o})}u={wide:n,H:e,py:r,shift:i,bx:d.left-f.left,by:d.top-f.top,bw:d.width||1,tx:s+Q.x*o,ty:r+Q.y*o,tw:Q.w*o,peek:Math.min(60,e*.08)}}function Tt(){const t=y.getBoundingClientRect();return b(-t.top/Math.max(1,t.height-q.clientHeight))}function gt(){if(!u)return;const t=Tt(),e=b(t/.12);U.style.opacity=(1-e).toFixed(3),U.style.transform=`translate3d(0, ${(-60*b(t/.2)).toFixed(1)}px, 0)`,U.style.visibility=e>.98?"hidden":"visible";const n=ht(b(t/.3)),o=ht(b((t-.36)/.1)),s=Z(1,u.tw/u.bw,n),r=Z(0,u.tx-u.bx,n)+u.shift*o,i=Z(0,u.ty-u.by,n);T.style.transform=`translate3d(${r.toFixed(1)}px, ${i.toFixed(1)}px, 0) scale(${s.toFixed(4)})`;const a=b((t-.3)/.04);T.style.opacity=(1-a).toFixed(3),p.style.setProperty("--legg-o",a.toFixed(3));const d=(1-n)*(u.H-u.peek-u.py);p.style.transform=`translate3d(${(u.shift*o).toFixed(1)}px, ${d.toFixed(1)}px, 0)`;const f=u.wide?.46:.4,x=(1-f)/D.length;D.forEach((L,m)=>{const v=f+m*x,W=v+x,h=b((t-v)/.05),M=m===D.length-1?0:b((t-(W-.04))/.04);L.style.opacity=(h*(1-M)).toFixed(3),L.style.transform=`translate3d(0, ${((1-h)*28-M*28).toFixed(1)}px, 0)`}),R.style.setProperty("--cap",b((t-f)/.05).toFixed(3)),t>=.3&&!P?(P=!0,ot()):t<.12&&P&&(P=!1,pt())}l("#nw-watch").addEventListener("click",t=>{if(y.dataset.mode!=="scroll")return;t.preventDefault();const e=y.offsetHeight-q.clientHeight;scrollTo({top:y.offsetTop+e*.46,behavior:w.matches?"auto":"smooth"})}),G.addEventListener("click",ot),N&&new IntersectionObserver(t=>{t[0].isIntersecting&&y.dataset.mode==="static"&&!P&&(P=!0,ot())},{threshold:.4}).observe(p);const wt=F(".nw-say");function yt(){wt.forEach(t=>{t._w||(t.innerHTML=t.textContent.trim().split(/\s+/).map(e=>`<span class="nw-wd">${z(e)}</span>`).join(" "),t._w=F(".nw-wd",t),t._n=-1),t.classList.toggle("nw-lit",!w.matches)})}function Rt(){if(w.matches)return;const t=innerHeight;wt.forEach(e=>{const n=e.getBoundingClientRect();if(n.bottom<-40||n.top>t+40)return;const o=Math.round(b((t*.85-n.top)/(n.height+t*.3))*e._w.length);o!==e._n&&(e._w.forEach((s,r)=>s.classList.toggle("on",r<o)),e._n=o)})}const V=F(".nw-feat"),it=l(".nw-stack"),xt=F(".nw-phone",it);V.forEach(t=>S(l(".nw-phone",t),t.dataset.screen)),xt.forEach(t=>S(t,t.dataset.screen));function at(){V.forEach(e=>{const n=l(".nw-phone",e),o=n.parentElement.clientWidth;o&&n.style.setProperty("--s",Math.max(.3,Math.min(.56,o/460)).toFixed(3))});const t=it.parentElement.clientWidth;t&&it.style.setProperty("--s",Math.max(.3,Math.min(.68,(innerHeight-140)/976,t/460)).toFixed(3))}function bt(t){xt.forEach(e=>e.classList.toggle("on",e.dataset.screen===t))}if(bt(V[0].dataset.screen),N){const t=new IntersectionObserver(e=>e.forEach(n=>{n.isIntersecting&&bt(n.target.dataset.screen)}),{rootMargin:"-45% 0px -45% 0px"});V.forEach(e=>t.observe(e))}const k=l("#nw-field"),vt=k.getContext("2d"),c={L:40,E:256,pick:8,keep:35,hit:.925,step:42},H=c.L*c.E,rt=new Float32Array(H),E=new Uint8Array(H),A=new Float32Array(H),Mt=new Uint8Array(H),B=new Float64Array(H);for(let t=0;t<c.L;t++){const e=Array.from({length:c.E},(n,o)=>o);for(let n=e.length-1;n>0;n--){const o=Math.random()*(n+1)|0;[e[n],e[o]]=[e[o],e[n]]}e.forEach((n,o)=>{const s=t*c.E+n;rt[s]=1/Math.pow(o+1,1.1),o<c.keep?(E[s]=1,B[s]=-o):B[s]=-1e9})}function Et(t,e,n){let o=0,s=-1;for(let i=0;i<c.E;i++){const a=t*c.E+i;E[a]===e&&!n.has(i)&&(o+=rt[a])}let r=Math.random()*o;for(let i=0;i<c.E;i++){const a=t*c.E+i;if(E[a]===e&&!n.has(i)&&(s=i,r-=rt[a],r<=0))return i}return s}let Lt=0;function Ft(t){const e=new Set;Lt++;for(let n=0;n<c.pick;n++){const o=Math.random()<c.hit?1:0;let s=Et(t,o,e);if(s<0&&(s=Et(t,1-o,e)),s<0)continue;e.add(s);const r=t*c.E+s;if(A[r]=1,Mt[r]=E[r]?1:2,B[r]=Lt,!E[r]){let i=-1,a=1/0;for(let d=0;d<c.E;d++){const f=t*c.E+d;E[f]&&!e.has(d)&&B[f]<a&&(a=B[f],i=f)}i>=0&&(E[i]=0),E[r]=1}}}let g=null,C=null;function Ht(){const t=k.clientWidth;if(!t||g&&g.W===t)return;const e=t>=720?1:2,n=c.E/e,o=t/n,s=e===1?Math.max(8,Math.min(11,o*2.2)):11,r=e===1?0:4.5,i=Math.round(c.L*s+6),a=Math.min(2,window.devicePixelRatio||1);k.style.height=i+"px",k.width=Math.round(t*a),k.height=Math.round(i*a),vt.setTransform(a,0,0,a,0,0),g={W:t,H:i,per:e,cols:n,px:o,row:s,sub:r,d:Math.max(1.4,Math.min(2.4,o*.5))},C={off:I("--field-off"),mem:I("--field-mem"),hit:I("--egg-glow"),read:I("--straw"),band:I("--field-band")},ct(-1)}function At(t,e){const n=e%g.cols,o=e/g.cols|0;return[(n+.5)*g.px,3+(t+.5)*g.row+(g.per===2?(o-.5)*g.sub:0)]}function ct(t){if(!g)return;const{W:e,H:n,d:o}=g,s=vt;s.clearRect(0,0,e,n),t>=0&&(s.fillStyle=C.band,s.fillRect(0,3+t*g.row,e,g.row));for(const[r,i]of[[0,C.off],[1,C.mem]]){s.fillStyle=i,s.beginPath();for(let a=0;a<c.L;a++)for(let d=0;d<c.E;d++){const f=a*c.E+d;if(E[f]!==r||A[f]>.05)continue;const[x,L]=At(a,d);s.rect(x-o/2,L-o/2,o,o)}s.fill()}for(let r=0;r<H;r++){const i=A[r];if(i<=.05)continue;const[a,d]=At(r/c.E|0,r%c.E);s.fillStyle=Mt[r]===2?C.read:C.hit,s.globalAlpha=i*.28,s.beginPath(),s.arc(a,d,o*.6+6*i,0,Math.PI*2),s.fill(),s.globalAlpha=.35+.65*i,s.beginPath(),s.arc(a,d,o*.55+1.2*i,0,Math.PI*2),s.fill()}s.globalAlpha=1}for(let t=0;t<c.L;t++)Ft(t);for(let t=0;t<H;t++)A[t]&&(A[t]*=.3+.7*(t/c.E|0)/(c.L-1));let Y=0,J=0;function jt(){const t=++Y;let e=0,n=0;const o=s=>{if(t!==Y)return;const r=e?Math.min(64,s-e):16;for(e=s,n+=r;n>=c.step;)n-=c.step,Ft(J),J=(J+1)%c.L;const i=r/900;for(let a=0;a<H;a++)A[a]>0&&(A[a]=Math.max(0,A[a]-i));ct(J),requestAnimationFrame(o)};requestAnimationFrame(o)}if(N&&new IntersectionObserver(t=>{t[0].isIntersecting&&!w.matches?jt():Y++}).observe(k),N){const t=new IntersectionObserver(e=>e.forEach(n=>{if(!n.isIntersecting||(t.unobserve(n.target),w.matches))return;const o=n.target,s=parseFloat(o.dataset.count),r=+o.dataset.dec||0,i=performance.now(),a=d=>{const f=b((d-i)/1400);o.textContent=(s*(1-Math.pow(1-f,3))).toFixed(r).replace(".",","),f<1&&requestAnimationFrame(a)};requestAnimationFrame(a)}),{threshold:.6});F("[data-count]").forEach(e=>t.observe(e))}const Pt=l(".nw-top"),Bt=F("main > section");function Ot(){const t=Pt.offsetHeight/2;let e="night";for(const n of Bt){const o=n.getBoundingClientRect();if(o.top<=t&&o.bottom>t){e=n.dataset.tone;break}}Pt.dataset.tone=e==="night"?"night":"light"}let lt=!1;function O(){lt=!1,gt(),Rt(),Ot()}addEventListener("scroll",()=>{lt||(lt=!0,requestAnimationFrame(O))},{passive:!0}),addEventListener("resize",()=>{st(),at(),Ht(),O()}),w.addEventListener("change",()=>{mt(),yt(),F(".nido").forEach(t=>{t.dataset.motion=w.matches?"reduced":"full"}),w.matches&&(Y++,ct(-1)),O()}),mt(),yt(),at(),Ht(),O(),document.fonts&&document.fonts.ready&&document.fonts.ready.then(()=>{st(),at(),O()})})();</script>
+</body>
+</html>
